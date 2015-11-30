@@ -1,4 +1,66 @@
-#letter_container li{
-    display:inline;
-    padding:3%;
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: hsla(0, 0%, 90%, .5);
+  font-family: sans-serif;
+}
+
+main {
+  text-align: center;
+  padding-top: 3.5em;
+}
+
+h1 {
+  font-size: 4.5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+button {
+  margin-bottom: 2em;
+  padding: .3em .7em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+input {
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+ul:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul:nth-of-type(1) li {
+  font-size: 2.5em;
+  height: 3em;
+  width: 3em;
+  line-height: 3em;
+  margin-bottom: .5em;
+  border: 1px solid hsla(0, 0%, 90%, 1);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul:nth-of-type(2) li {
+  margin: 0;
+  font-size: 2em;
 }
