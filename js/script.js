@@ -162,6 +162,7 @@ var randomize_word = function(){
                 
           list_element_letter.addEventListener('drop',function(event){
               
+              event.preventDefault();
               
               previous_list_item.textContent = event.target.textContent; 
               
